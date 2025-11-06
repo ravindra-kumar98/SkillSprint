@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.WebApi\\Course.WebApi.csproj": {}
+    "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.WebApi\\Course.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj": {
+    "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj",
+        "projectUniqueName": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj",
         "projectName": "Course.Application",
-        "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj",
-        "packagesPath": "C:\\Users\\abhishek\\.nuget\\packages\\",
-        "outputPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\obj\\",
+        "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj",
+        "packagesPath": "C:\\Users\\Nitin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nitin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj": {
-                "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj"
+              "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj": {
+                "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj"
               }
             }
           }
@@ -47,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -87,25 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj": {
+    "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj",
+        "projectUniqueName": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj",
         "projectName": "Course.Domain",
-        "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj",
-        "packagesPath": "C:\\Users\\abhishek\\.nuget\\packages\\",
-        "outputPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\obj\\",
+        "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nitin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nitin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,7 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -130,8 +121,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -152,25 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\Course.Infrastructure.csproj": {
+    "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\Course.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\Course.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\Course.Infrastructure.csproj",
         "projectName": "Course.Infrastructure",
-        "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\Course.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\abhishek\\.nuget\\packages\\",
-        "outputPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\obj\\",
+        "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\Course.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Nitin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nitin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,17 +164,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj": {
-                "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj"
+              "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj": {
+                "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj"
               },
-              "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj": {
-                "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Domain\\Course.Domain.csproj"
+              "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj": {
+                "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Domain\\Course.Domain.csproj"
               }
             }
           }
@@ -202,8 +188,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -246,25 +231,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.WebApi\\Course.WebApi.csproj": {
+    "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.WebApi\\Course.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.WebApi\\Course.WebApi.csproj",
+        "projectUniqueName": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.WebApi\\Course.WebApi.csproj",
         "projectName": "Course.WebApi",
-        "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.WebApi\\Course.WebApi.csproj",
-        "packagesPath": "C:\\Users\\abhishek\\.nuget\\packages\\",
-        "outputPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.WebApi\\obj\\",
+        "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.WebApi\\Course.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Nitin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nitin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -272,17 +253,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj": {
-                "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Application\\Course.Application.csproj"
+              "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj": {
+                "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Application\\Course.Application.csproj"
               },
-              "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\Course.Infrastructure.csproj": {
-                "projectPath": "D:\\Abhishek_P\\CleanArchitecture\\Course.WebApi\\Course.Infrastructure\\Course.Infrastructure.csproj"
+              "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\Course.Infrastructure.csproj": {
+                "projectPath": "D:\\Ravindra's Folder\\27012025-React\\SkillSprint\\backend\\Course.Infrastructure\\Course.Infrastructure.csproj"
               }
             }
           }
@@ -296,8 +277,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -341,7 +321,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
