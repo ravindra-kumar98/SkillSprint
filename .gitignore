@@ -1,0 +1,63 @@
+# ------------------------------
+# Global OS / Editor Ignores
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.cache
+*.swp
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# Node / React Frontend
+# ------------------------------
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/coverage/
+
+# Yarn / NPM files
+frontend/yarn-error.log
+frontend/npm-debug.log
+
+# ------------------------------
+# .NET Core Backend
+# ------------------------------
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.env
+backend/appsettings.Development.json
+backend/appsettings.Local.json
+
+# NuGet Packages
+backend/packages/
+
+# ------------------------------
+# Database Folder
+# ------------------------------
+database/*.bak
+database/*.mdf
+database/*.ldf
+database/backup/
+database/temp/
+
+# ------------------------------
+# Logs (Global)
+# ------------------------------
+logs/
+*.log
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*.local
+*.secret.json
+*.key
