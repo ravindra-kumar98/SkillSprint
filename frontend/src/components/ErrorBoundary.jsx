@@ -10,17 +10,20 @@ export default class ErrorBoundary extends Component {
     };
   }
   static getDerivedStateFromError(err) {
-    return { hasError: true, errorMsg: err };
+    return { hasError: true, errorMsg: JSON.stringify(err) };
   }
   componentDidCatch(err, info) {
     this.setState({
-      errorMsg: JSON.stringify(err),
+      errorMsg: err.toString(),
       errorInfo: info.componentStack,
     });
   }
   render() {
     if (this.state.hasError) {
-      return <>{this.state.errorMsg}</>;
+      return <>
+        <h1>Something went wrong: {this.state.errorMsg}</h1>
+        <p>{this.state.errorInfo}</p>
+      </>;
     }
     return this.props.children;
   }
