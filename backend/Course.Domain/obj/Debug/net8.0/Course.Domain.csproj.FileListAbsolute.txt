@@ -1,0 +1,11 @@
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\bin\Debug\net8.0\Course.Domain.deps.json
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\bin\Debug\net8.0\Course.Domain.dll
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\bin\Debug\net8.0\Course.Domain.pdb
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.AssemblyInfoInputs.cache
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.AssemblyInfo.cs
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.csproj.CoreCompileInputs.cache
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.dll
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\refint\Course.Domain.dll
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\Course.Domain.pdb
+D:\Abhishek_P\CleanArchitecture\Course.WebApi\Course.Domain\obj\Debug\net8.0\ref\Course.Domain.dll
