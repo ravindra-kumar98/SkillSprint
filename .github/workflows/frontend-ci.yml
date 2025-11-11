@@ -1,0 +1,39 @@
+name: Frontend CI (React + Vite)
+
+on:
+  push:
+    branches: [ home_r, office_r, main ]
+    paths:
+      - 'frontend/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'frontend/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clean install dependencies (fix Rollup issue)
+        working-directory: ./frontend
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Ensure Rollup installed
+        working-directory: ./frontend
+        run: npm install rollup --save-dev
+
+      - name: Build Vite app
+        working-directory: ./frontend
+        run: npm run build
+
+      - name: Run tests
+        working-directory: ./frontend
+        run: npm test --if-present

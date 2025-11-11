@@ -12,7 +12,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           {/* Public Routes - Anyone can access */}
-          {publicRoutes.map(({ path, element: Element }) => () => (
+          {publicRoutes.map(({ path, element: Element }) => (
             <Route key={path} path={path} element={<Element />} />
           ))}
         </Route>
