@@ -20,9 +20,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
+      - name: Clean install dependencies (fix Rollup issue)
         working-directory: ./frontend
-        run: npm ci
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Ensure Rollup installed
+        working-directory: ./frontend
+        run: npm install rollup --save-dev
 
       - name: Build Vite app
         working-directory: ./frontend
